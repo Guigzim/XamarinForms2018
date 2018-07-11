@@ -3,11 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02_TipoPaginaXF.TipoPagina.Navigation.Pagina1"
              Title="Título da Navigation">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Pesquisa" />
-        <ToolbarItem Text="Detalhes" />
-        <ToolbarItem Text="Ordenar" />
-    </ContentPage.ToolbarItems>
+
+
 
     
     <ContentPage.Content>
@@ -17,6 +14,10 @@
                 HorizontalOptions="CenterAndExpand" />
 
             <Button Text="Ir para Página 2" Clicked="MudarParaPagina2"/>
+
+            <Button Text="Chamar Modal" Clicked="ChamarModal"/>
+            
+            <Button Text="Chamar Master" Clicked="ChamarMaster" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
